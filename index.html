@@ -8,23 +8,35 @@
     <meta name="keywords" content="video upscaler comparison, AI video super resolution, SeedVR2, FlashVSR, Topaz Video AI alternative, video flickering fix, AI generated video upscale, temporal consistency, video enhancement comparison" />
     <meta name="author" content="dlss5 Compare" />
     <meta name="robots" content="index, follow" />
-    
+
+    <!-- Hreflang for multilingual -->
+    <link rel="alternate" hreflang="en" href="/" />
+    <link rel="alternate" hreflang="zh" href="/zh" />
+    <link rel="alternate" hreflang="x-default" href="/" />
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="dlss5 Compare — AI Video Upscaler Comparison Platform" />
     <meta property="og:description" content="Compare 12+ AI video upscalers side-by-side on your own content. 8 dimensions measured, not guessed." />
-    <meta property="og:url" content="https://dlls5.app/compare" />
+    <meta property="og:url" content="/" />
     <meta property="og:site_name" content="dlss5 Compare" />
-    <meta property="og:image" content="/og-image.jpg" />
-    
+    <meta property="og:image" content="/og-image.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="dlss5 Compare — AI Video Upscaler Comparison" />
     <meta name="twitter:description" content="Upload once. Compare 12 models instantly. See which AI actually works for your content." />
-    <meta name="twitter:image" content="/og-image.jpg" />
-    
+    <meta name="twitter:image" content="/og-image.svg" />
+
     <!-- Canonical -->
-    <link rel="canonical" href="https://dlls5.app/compare" />
+    <link rel="canonical" href="/" />
     
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2300E5FF'/><text x='50' y='70' font-size='60' font-weight='bold' text-anchor='middle' fill='%23050507'>d</text></svg>" />
@@ -35,22 +47,48 @@
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "dlss5 Compare",
-      "url": "https://dlls5.app/compare",
+      "url": "/",
       "description": "AI video upscaler comparison platform. Compare 12+ models side-by-side on your own content with 8-dimension quantified evaluation.",
       "publisher": {
         "@type": "Organization",
         "name": "dlss5",
-        "url": "https://dlls5.app"
+        "url": "/"
       }
     }
     </script>
-    
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "AI Video Upscaler Comparison",
+      "description": "Compare 12+ AI video upscalers side-by-side on your own content. We measure 8 dimensions: flickering, edge halos, plastic skin, ghosting, color drift, AI artifacts, temporal consistency, and detail preservation.",
+      "provider": {
+        "@type": "Organization",
+        "name": "dlss5 Compare"
+      },
+      "serviceType": "Video Enhancement",
+      "areaServed": "Worldwide",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI Models",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "SeedVR2"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "FlashVSR"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Real-ESRGAN"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "SwinIR"}}
+        ]
+      }
+    }
+    </script>
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
       "name": "dlss5 Compare",
       "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Web Browser",
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -61,6 +99,31 @@
         "ratingValue": "4.8",
         "ratingCount": "3700"
       }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is AI video upscaling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI video upscaling uses artificial intelligence to increase video resolution while preserving or enhancing detail, reducing artifacts like flickering and ghosting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many models can I compare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can compare 12+ AI video upscaling models side-by-side including SeedVR2, FlashVSR, Real-ESRGAN, SwinIR, and more."
+          }
+        }
+      ]
     }
     </script>
   </head>

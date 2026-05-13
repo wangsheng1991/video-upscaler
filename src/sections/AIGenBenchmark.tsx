@@ -69,7 +69,7 @@ export default function AIGenBenchmark() {
         <div className={`rounded-2xl overflow-hidden border border-white/5 bg-surface mb-10 transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
           <div className="grid grid-cols-1 md:grid-cols-3">
             <div className="relative aspect-video md:aspect-auto overflow-hidden">
-              <img src={scenario.img} alt={scenario.label} className="w-full h-full object-cover" style={{ filter: 'blur(1.5px) saturate(0.6) contrast(0.85)' }} />
+              <img src={scenario.img} alt={scenario.label} className="w-full h-full object-cover" style={{ filter: 'blur(1.5px) saturate(0.6) contrast(0.85)' }} loading="lazy" />
               <div className="absolute top-3 left-3">
                 <span className="text-[10px] font-mono text-white/50 bg-black/50 px-2 py-0.5 rounded-full backdrop-blur-sm">AI-GENERATED SOURCE</span>
               </div>

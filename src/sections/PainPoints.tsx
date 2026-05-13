@@ -163,7 +163,7 @@ function PainCard({ p, i }: { p: typeof painPoints[0]; i: number }) {
 
       {/* Visual preview */}
       <div className="relative rounded-lg overflow-hidden mb-3 h-20 bg-surface">
-        <img src="/hero-sports.jpg" alt="" className="w-full h-full object-cover" style={visualStyle[p.visual]} />
+        <img src="/hero-sports.jpg" alt="" className="w-full h-full object-cover" style={visualStyle[p.visual]} loading="lazy" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent" />
         <span className="absolute bottom-2 left-2 text-[9px] font-mono text-white/40 bg-black/40 px-1.5 py-0.5 rounded">Visual: {p.visual}</span>
       </div>

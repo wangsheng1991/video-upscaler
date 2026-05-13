@@ -1,112 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dlls5.app/compare</loc>
+    <loc>/compare</loc>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/blog</loc>
+    <loc>/compare/blog</loc>
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/tools/vram-calculator</loc>
+    <loc>/compare/tools/vram-calculator</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/model/flashvsr</loc>
+    <loc>/compare/model/flashvsr</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/model/seedvr2</loc>
+    <loc>/compare/model/seedvr2</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/model/realesrgan</loc>
+    <loc>/compare/model/realesrgan</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/model/swinir</loc>
+    <loc>/compare/model/swinir</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/model/hat</loc>
+    <loc>/compare/model/hat</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/model/star</loc>
+    <loc>/compare/model/star</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/model/realisvsr</loc>
+    <loc>/compare/model/realisvsr</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/model/venhancer</loc>
+    <loc>/compare/model/venhancer</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/model/upscaleav</loc>
+    <loc>/compare/model/upscaleav</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/model/invsr</loc>
+    <loc>/compare/model/invsr</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/model/hypir</loc>
+    <loc>/compare/model/hypir</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/model/topaz-video</loc>
+    <loc>/compare/model/topaz-video</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/model/topaz-gp</loc>
+    <loc>/compare/model/topaz-gp</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/blog/flashvsr-vs-seedvr2</loc>
+    <loc>/compare/blog/flashvsr-vs-seedvr2</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/blog/topaz-alternative-2026</loc>
+    <loc>/compare/blog/topaz-alternative-2026</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/blog/video-flickering-fix</loc>
+    <loc>/compare/blog/video-flickering-fix</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/blog/ai-generated-video-upscale</loc>
+    <loc>/compare/blog/ai-generated-video-upscale</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/blog/480p-to-4k-guide</loc>
+    <loc>/compare/blog/480p-to-4k-guide</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://dlls5.app/compare/blog/ecommerce-product-upscaling</loc>
+    <loc>/compare/blog/ecommerce-product-upscaling</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
