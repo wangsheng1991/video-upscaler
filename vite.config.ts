@@ -1,10 +1,9 @@
 import devServer from "@hono/vite-dev-server"
 import path from "path"
+const __dirname = import.meta.dirname
 import react from "@vitejs/plugin-react"
 import { defineConfig } from "vite"
 import { inspectAttr } from 'kimi-plugin-inspect-react'
-
-const rootDir = import.meta.dirname
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -16,14 +15,15 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@": path.resolve(rootDir, "./src"),
-      "@contracts": path.resolve(rootDir, "./contracts"),
-      "@db": path.resolve(rootDir, "./db"),
-      "db": path.resolve(rootDir, "./db"),
+      "@": path.resolve(__dirname, "./src"),
+      "@contracts": path.resolve(__dirname, "./contracts"),
+      "@db": path.resolve(__dirname, "./db"),
+      "db": path.resolve(__dirname, "./db"),
     },
   },
+  envDir: path.resolve(__dirname),
   build: {
-    outDir: path.resolve(rootDir, "dist/public"),
+    outDir: path.resolve(__dirname, "dist/public"),
     emptyOutDir: true,
   },
 });
